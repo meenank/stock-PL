@@ -24,9 +24,9 @@ function showResult() {
     if (percentage_pl > 0) {
         res_area.innerHTML = "you got a profit of +" + percentage_pl + "%...CONGRATS!!! 🥳";
     } else if (percentage_pl < 0) {
-        res_area.innerHTML = "You got a loss of " + percentage_pl + "%...time to awake harshad mehta in you 😜";
+        res_area.innerHTML = "You got a loss of " + percentage_pl + "%...time to awake harshad mehta in you 😉";
     } else {
-        res_area.innerHTML = "No Pain no Gain  but here...its no Gain so no Pain"
+        res_area.innerHTML = "no GAIN...no PAIN...😪"
     }
 
 }
