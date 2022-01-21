@@ -30,6 +30,7 @@ body {
     /* width: 100%;*/
     margin: 1.3rem auto;
     /* max-width: 60%; */
+    color: antiquewhite;
 }
 
 .result {
@@ -39,6 +40,7 @@ body {
     text-align: center;
     padding-top: 2rem;
     background: transparent;
+    border-radius: 12px;
 }
 
 .inp-style {
@@ -59,6 +61,7 @@ body {
     outline: none;
     border: none;
     background-color: #40916c;
+    color: aliceblue;
 }
 
 #reset {
@@ -70,4 +73,5 @@ body {
     outline: none;
     border: none;
     background-color: #bc3908;
+    color: aliceblue;
 }
