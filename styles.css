@@ -1,0 +1,23 @@
+.container {
+    max-width: 40%;
+    margin: 0 auto;
+    border: 1px solid red;
+    padding: 2rem;
+}
+
+.inp-style,
+.label-style,
+button {
+    text-align: center;
+    /* border: 1px solid red; */
+    display: block;
+    /* width: 100%;*/
+    margin: 1rem auto;
+    /* max-width: 60%; */
+}
+
+.result {
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid red;
+}
