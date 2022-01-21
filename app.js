@@ -3,6 +3,7 @@ const no_of_stocks = document.querySelector("#units");
 const last_price = document.querySelector("#current-price");
 const btn = document.querySelector("button");
 const res_area = document.querySelector(".result");
+const btn_reset = document.querySelector("#reset")
 
 function testInputs() {
 
@@ -31,5 +32,13 @@ function showResult() {
 
 }
 
+function removeData() {
 
-btn.addEventListener("click", showResult)
+    first_price.value = "";
+    no_of_stocks.value = "";
+    last_price.value = "";
+    res_area.innerHTML = "";
+}
+
+btn.addEventListener("click", showResult);
+btn_reset.addEventListener("click", removeData);

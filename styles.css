@@ -1,4 +1,9 @@
+body {
+    background-color: #15616D;
+}
+
 .container {
+    background-color: #FF7D00;
     max-width: 30%;
     height: 500px;
     margin: 5rem auto;
@@ -7,8 +12,7 @@
 }
 
 .inp-style,
-.label-style,
-button {
+.label-style {
     text-align: center;
     /* border: 1px solid red; */
     display: block;
@@ -18,9 +22,34 @@ button {
 }
 
 .result {
-    margin: 5rem auto;
+    border: 2px solid #FFECD1;
+    margin: 0 auto;
     height: 100px;
     text-align: center;
     padding-top: 2rem;
-    border: 1px solid red;
+}
+
+.inp-style {
+    padding: 0.5rem;
+    border-radius: 5px;
+    outline: none;
+}
+
+#submit {
+    max-width: 7rem;
+    width: 5rem;
+    margin-left: 8.5rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    outline: none;
+}
+
+#reset {
+    max-width: 7rem;
+    width: 5rem;
+    margin-left: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    outline: none;
 }
