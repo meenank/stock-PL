@@ -23,9 +23,9 @@ function showResult() {
     var percentage_pl = (diff_inv / first_inv) * 100;
     percentage_pl = percentage_pl.toFixed(2);
     if (percentage_pl > 0) {
-        res_area.innerHTML = "you got a profit of +" + percentage_pl + "%...CONGRATS!!! 🥳";
+        res_area.innerHTML = "you got a profit of +" + percentage_pl + "%...CONGRATS!!! 🥳  Currnet value of investment is : " + cur_inv;
     } else if (percentage_pl < 0) {
-        res_area.innerHTML = "You got a loss of " + percentage_pl + "%...time to awake harshad mehta in you 😉";
+        res_area.innerHTML = "You got a loss of " + percentage_pl + "% current value of investment if " + cur_inv + "...time to awake harshad mehta in you 😉";
     } else {
         res_area.innerHTML = "no GAIN...no PAIN...😪"
     }
